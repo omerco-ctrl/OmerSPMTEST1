@@ -23,21 +23,28 @@
 //  THE SOFTWARE.
 //
 
+// swift-tools-version: 5.9
 import PackageDescription
 
 let package = Package(
     name: "OmerSPMTEST1",
-    platforms: [.iOS(.v13)],
+    platforms: [
+        .iOS(.v13)
+    ],
     products: [
-        .library(name: "ACPaymentLinks", targets: ["ACPaymentLinks"])
+        .library(
+            name: "ACPaymentLinks",
+            targets: ["ACPaymentLinks"]
+        )
     ],
     targets: [
         .binaryTarget(
             name: "ACPaymentLinks",
             url: "https://github.com/omerco-ctrl/OmerSPMTEST1/releases/download/1.0.0/ACPaymentLinks.xcframework.zip",
-            I1bd59a819103c0784e31f60a41c8c37c84add6bf603e767738c4ee7817f87d"
+            checksum: "111bd59a819103c0784e31f60a41c8c37c84add6bf603e767738c4ee7817f87d"
         )
     ]
 )
+
 
 

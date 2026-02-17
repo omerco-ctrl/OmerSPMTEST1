@@ -16,7 +16,7 @@ let package = Package(
         .binaryTarget(
             name: "ACPaymentLinks",
             url: "https://github.com/omerco-ctrl/OmerSPMTEST1/releases/download/5.0.1/ACPaymentLinks.xcframework.zip",
-            checksum: "99462523d303908be0c82bbe732403e0f30f4803ea9407744c9b4ec28a7c5e32"
+            checksum: "e227a0114f4248030ade30bec8f9a81f61a6fad1288fb8381441ac640bfa2067"
         )
     ]
 )
